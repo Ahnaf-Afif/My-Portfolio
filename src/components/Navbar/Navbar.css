@@ -1,0 +1,37 @@
+.glow-text {
+  color: white;
+  text-shadow:
+    0 0 10px #00f0ff,
+    0 0 20px #00f0ff,
+    0 0 40px #00f0ff;
+}
+
+.nav-item {
+  transition: 0.3s;
+}
+
+.nav-item:hover {
+  text-shadow:
+    0 0 8px #00f0ff,
+    0 0 16px #00f0ff;
+}
+
+.glow-icon {
+  filter: drop-shadow(0 0 8px #00f0ff);
+}
+
+@keyframes glowPulse {
+  0% {
+    text-shadow: 0 0 5px #00f0ff;
+  }
+  50% {
+    text-shadow: 0 0 20px #00f0ff;
+  }
+  100% {
+    text-shadow: 0 0 5px #00f0ff;
+  }
+}
+
+.glow-animate {
+  animation: glowPulse 2s infinite;
+}

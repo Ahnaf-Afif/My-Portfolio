@@ -51,7 +51,7 @@ export default function Skills() {
 
   return (
     <div className="">
-      <div className="flex  w-full items-center justify-center bg-zinc-950  text-white">
+      <div className="flex items-center justify-center bg-zinc-950  text-white">
         <style>{`
           @keyframes orbitSpin {
             from { transform: rotate(0deg); }
