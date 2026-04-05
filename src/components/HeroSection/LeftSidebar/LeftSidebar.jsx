@@ -14,13 +14,14 @@ const LeftSidebar = () => {
             aria-label="close sidebar"
             className="drawer-overlay"
           ></label>
-          <ul className="menu bg-base-200 flex justify-center items-center h-100 w-80 p-4">
+          <ul className="menu bg-zinc-950 text-white border-2 border-cyan-400 rounded-3xl  flex justify-center items-center h-90 md:h-100 w-80 p-4 ">
             {/* Sidebar content here */}
             <li>
-              <a>Sidebar Item 1</a>
-            </li>
-            <li>
-              <a>Sidebar Item 2</a>
+              <p className="text-center text-lg md:text-xl text-cyan-400">
+                Passionate about building clean, functional, and responsive web
+                applications. Engineering student exploring the MERN stack and
+                building projects to grow as a full-stack developer.
+              </p>
             </li>
           </ul>
         </div>

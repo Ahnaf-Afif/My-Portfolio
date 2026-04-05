@@ -1,5 +1,5 @@
 import React from "react";
-import ProfilePhoto from "../../assets/My-Profile-Photo/afif-white-b.png";
+import ProfilePhoto from "../../../assets/My-Profile-Photo/afif-white-b.png";
 
 const skills = [
   {
@@ -69,7 +69,7 @@ export default function Skills() {
           style={{ width: orbitSize, height: orbitSize }}
         >
           <div
-            className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 rounded-full border border-dashed border-cyan-400/20"
+            className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 rounded-full border border-dashed border-cyan-400/30"
             style={{ width: ringSize, height: ringSize }}
           />
 
@@ -103,7 +103,7 @@ export default function Skills() {
                   }}
                 >
                   <div
-                    className="absolute left-1/2 top-1/2 flex -translate-x-1/2 -translate-y-1/2 items-center justify-center rounded-full border border-cyan-400/30 bg-zinc-900 px-2 shadow-lg shadow-cyan-500/10"
+                    className="absolute left-1/2 top-1/2 flex -translate-x-1/2 -translate-y-1/2 items-center justify-center rounded-full border border-cyan-400/60 bg-zinc-900 px-2 shadow-lg shadow-cyan-200/10"
                     style={{
                       width: itemSize,
                       height: itemSize,
