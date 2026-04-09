@@ -1,18 +1,69 @@
-# React + Vite
+# My Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern personal portfolio website built to present my profile, technical skills, and academic background in a clean, responsive, and visually engaging way.
 
-Currently, two official plugins are available:
+This project reflects my journey as an engineering student exploring web development and growing toward becoming a full-stack developer. The interface features a minimal dark theme, an animated skills showcase, and a structured layout for presenting personal and professional information.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Live Demo
 
-## React Compiler
+[View Live Site](https://ahnaf-afif-portfolio.netlify.app)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Repository
 
-## Expanding the ESLint configuration
+[GitHub Repository](https://github.com/Ahnaf-Afif/My-Portfolio)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-# My-Portfolio
-# My-Portfolio
+## Overview
+
+This portfolio website was created to showcase:
+
+- A short professional introduction
+- Core web development skills
+- Educational background
+- A visually appealing and responsive user interface
+
+The project focuses on simplicity, readability, and a modern frontend presentation.
+
+## Features
+
+- Responsive layout for desktop and mobile devices
+- Clean dark-themed UI with neon accent styling
+- Animated circular skills section around the profile image
+- Introductory sidebar with personal summary
+- Education section with academic information
+- Social and contact icons in the navigation bar
+- Component-based structure for easier maintenance and scalability
+
+## Tech Stack
+
+This project is built with the following technologies:
+
+- **React**
+- **Vite**
+- **JavaScript**
+- **Tailwind CSS**
+- **DaisyUI**
+- **React Icons**
+- **HTML5**
+- **CSS3**
+
+## Project Structure
+
+```bash
+My-Portfolio/
+├── public/
+├── src/
+│   ├── assets/
+│   ├── components/
+│   │   ├── HeroSection/
+│   │   │   ├── LeftSidebar/
+│   │   │   ├── RightSidebar/
+│   │   │   └── Skills/
+│   │   └── Navbar/
+│   ├── App.jsx
+│   ├── App.css
+│   ├── index.css
+│   └── main.jsx
+├── index.html
+├── package.json
+├── vite.config.js
+└── README.md
