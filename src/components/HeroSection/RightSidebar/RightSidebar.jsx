@@ -14,27 +14,29 @@ const RightSidebar = () => {
             aria-label="close sidebar"
             className="drawer-overlay"
           ></label>
-          <ul className="menu bg-zinc-950 border-2 rounded-3xl border-cyan-400 h-90 md:h-100 flex justify-center items-center w-80 p-4">
+          <ul className="menu bg-zinc-950 border-2 rounded-3xl border-cyan-400 h-90 md:h-100 flex justify-center items-center w-80 md:w-90 lg:w-80 p-4">
             {/* Sidebar content here */}
             <li>
-              <p className="text-center text-lg md:text-xl text-cyan-400">
-                <u>Education</u>
-              </p>
-            </li>
-            <li>
-              <p className="text-center text-lg md:text-xl text-cyan-400">
-                BSc in Electronics and Telecommunication Engineering
-              </p>
-            </li>
-            <li>
-              <p className="text-center text-lg md:text-xl text-cyan-400">
-                University: Chittagong University of Engineering and Technology
-              </p>
-            </li>
-            <li>
-              <p className="text-center text-lg md:text-xl text-cyan-400">
-                CGPA: 3.35
-              </p>
+              <div className="text-center text-lg md:text-xl text-cyan-400 flex flex-col justify-center items-center gap-6">
+                <div className="grid gap-1">
+                  <div className="font-bold text-3xl">Available for</div>
+                  <div className="text-base font-bold">
+                    Internships • Freelance • Collaboration
+                  </div>
+                </div>
+                <div className="grid gap-1">
+                  <div className="text-3xl font-bold">Based in</div>
+                  <div className="font-bold text-base">
+                    Chattogram, Bangladesh
+                  </div>
+                </div>
+                <div className="grid gap-1">
+                  <div className="text-3xl font-bold">Focus </div>
+                  <div className="text-base font-bold">
+                    Frontend • MERN Stack • Responsive UI
+                  </div>
+                </div>
+              </div>
             </li>
           </ul>
         </div>
